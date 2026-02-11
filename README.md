@@ -2,6 +2,12 @@
 
 A classic arcade-style Snake game built using Python's built-in `turtle` graphics module. This project features optimized movement logic, a score tracking system, and increasing difficulty.
 
+ ##  Recent Improvements
+Compared to the initial version, this updated build includes:
+* **Optimized Rendering:** Refined `wn.update()` calls to reduce input lag.
+* **Direction Lock:** Added logic to prevent the snake from reversing directly into itself (e.g., you can't go 'Down' while moving 'Up').
+* **Speed Scaling:** Adjusted the `delay` logic so the game gets progressively more challenging.
+
 ##  Features
 * **Smooth Controls:** Play using either 'W-A-S-D' keys or the standard Arrow keys.
 * **Dynamic Difficulty:** The game speed increases slightly as the snake grows longer.
@@ -22,8 +28,4 @@ A classic arcade-style Snake game built using Python's built-in `turtle` graphic
    ```bash
    python snake_game.py
    
-   ##  Recent Improvements
-Compared to the initial version, this updated build includes:
-* **Optimized Rendering:** Refined `wn.update()` calls to reduce input lag.
-* **Direction Lock:** Added logic to prevent the snake from reversing directly into itself (e.g., you can't go 'Down' while moving 'Up').
-* **Speed Scaling:** Adjusted the `delay` logic so the game gets progressively more challenging.
+  
