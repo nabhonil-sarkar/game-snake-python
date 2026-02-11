@@ -20,6 +20,7 @@ A classic arcade-style Snake game built using Python's built-in `turtle` graphic
 3. Navigate to the folder containing the file.
 4. Run the following command:
    ```bash
+   python snake_game.py
    
    ##  Recent Improvements
 Compared to the initial version, this updated build includes:
